@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:300,400');
+@import url('https://fonts.googleapis.com/css?family=Metal+Mania');
+@import url('https://fonts.googleapis.com/css2?family=Shizuru&display=swap');
+
+@font-face{
+    font-family: "Booter - Zero Zero";
+    src: url("Fonts/Booter - Zero Zero.woff") format("woff"),
+    url("Fonts/Booter - Zero Zero.woff2") format("woff2");
+    /* multiple sources allow the browser to try a second font source if the first one is not compatible */
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+.band-name{
+    text-align: center;
+    margin: 0;
+    font-size: 2em;
+    font-family: "Booter - Zero Zero";
+    font-weight: normal;
+    color: white;
+}
+
+.container{
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 1.5em;
+}
+
+
+#footer{
+    background-color: #56CCF2 !important;
+    color: white;
+    padding: 0.25em 0;
+    animation-name: example;
+    animation-duration: 4s;
+    
+}
+
+footer {
+    clear: both;
+    position: relative;
+    height: 70px;
+    margin-top: -200px;
+}
+
+.main-footer-container{
+    display: flex;
+    align-items: center;
+}
+
+.main-footer-container ul{
+    flex-grow: 1;
+    text-align: end;
+
+}
+
+.footer-nav li{
+    padding: 0 .5em;
+}
+
+@keyframes example {
+    from {background-color: blue;}
+    to {background-color: cyan;}
+}
+
+.footer-nav img{
+    width: 30px;
+    height: 30px;
+}
+
+body{ 
+    display:flex; 
+    flex-direction:column; 
+  }
+  
+footer{
+    margin-top:auto; 
+}
+
+.main-footer-container ul{
+    flex-grow: 1;
+    text-align: end;
+
+}
+
+.footer-nav li{
+    padding: 0 .5em;
+}
+
+.footer-nav img{
+    width: 30px;
+    height: 30px;
+}
+
+.nav ul{
+    margin: 0;
+}
+
+.nav li{
+    display: inline;
+}
+
+.nav a{
+    display: inline-block;
+    padding: 0.5em;
+    color: white;
+    text-decoration: none;
+}
+
+.nav a:hover{
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+.nav.main-nav{
+    text-align: center;
+    font-size: 1.1em;
+    font-weight: lighter;
+    border-bottom: 1px solid rgba(255, 255, 255, .3);
+}
+
+.nav.main-nav li{
+    padding: 0 5%;
+}
