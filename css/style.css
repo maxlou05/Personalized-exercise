@@ -1,0 +1,294 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,400i,700");
+@import url('https://fonts.googleapis.com/css2?family=Dongle:wght@300&family=Shizuru&display=swap');
+:root{
+    --clr-gray: #f0f7f8;
+    --clr-gray-200: #cfd8dc;
+    --radius: 0.2rem;
+}
+
+.nav-header{
+    background-color: white;
+    box-shadow: 0px 0px 10px var(--clr-gray-200);
+    margin:0;
+    padding: 0.35rem 0;
+    border-radius:var(--radius);
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+}
+
+.nav-item{
+    list-style: none;
+    display: inline;
+    margin-right:2rem;
+}
+
+.nav-item a{
+    text-decoration: none;
+    color:black;
+    transition:all 200ms ease-in;
+}
+
+.nav-item a:hover{
+    color: turquoise;
+}
+
+.nav-item:first-child{
+    margin-left: auto;
+}
+
+.btn-primary{
+    font-family: "Montserrat";
+    font-size:1rem;
+    background:cyan;
+    border:none;
+    outline:none;
+    border-radius:var(--radius);
+    padding:0.5rem 1rem;
+    cursor:pointer;
+    transition:all 200ms ease-in;
+
+}
+.btn-primary:hover{
+    background-color:#008b8b;
+}
+
+.container{
+    position: relative;
+    text-align: center;
+}
+
+::-webkit-scrollbar
+{
+	width: 15px;
+	background-color: #dfe6e9;
+}
+
+
+::-webkit-scrollbar-thumb
+{
+	background-color: #74b9ff;
+	border-radius: 10px;
+}
+
+.round-img{
+    border: black 1px solid;
+    border-radius: 50%;
+    margin-left: 40%;
+    height: 300px;
+    width: 300px;
+}
+
+.center{
+    margin-left: 30%;
+}
+
+.title{
+    margin-top: 2%;
+
+}
+.wrapper{
+    float:right;
+    margin-left: 20%;
+    margin-right: 15%;
+}
+
+
+
+/* CSS */
+.button-33 {
+  background-color: #c2fbd7;
+  border-radius: 100px;
+  box-shadow: rgba(44, 187, 99, .2) 0 -25px 18px -14px inset,rgba(44, 187, 99, .15) 0 1px 2px,rgba(44, 187, 99, .15) 0 2px 4px,rgba(44, 187, 99, .15) 0 4px 8px,rgba(44, 187, 99, .15) 0 8px 16px,rgba(44, 187, 99, .15) 0 16px 32px;
+  color: green;
+  cursor: pointer;
+  display: inline-block;
+  font-family: CerebriSans-Regular,-apple-system,system-ui,Roboto,sans-serif;
+  padding: 7px 20px;
+  text-align: center;
+  text-decoration: none;
+  transition: all 250ms;
+  border: 0;
+  font-size: 16px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-33:hover {
+  box-shadow: rgba(44,187,99,.35) 0 -25px 18px -14px inset,rgba(44,187,99,.25) 0 1px 2px,rgba(44,187,99,.25) 0 2px 4px,rgba(44,187,99,.25) 0 4px 8px,rgba(44,187,99,.25) 0 8px 16px,rgba(44,187,99,.25) 0 16px 32px;
+  transform: scale(1.05) rotate(-1deg);
+}
+
+
+.special-text {
+    margin-left: 3%;
+    font-weight: 700;
+    text-align: center;
+    font-size: 40px;
+    font-family: Hack, sans-serif;
+    text-transform: uppercase;
+    background: linear-gradient(90deg, #000, #fff, #000);
+    letter-spacing: 5px;
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-repeat: no-repeat;
+    background-size: 80%;
+    animation: shine 8s linear infinite;
+    position: relative;
+  }
+  
+  @keyframes shine {
+    0% {
+      background-position-x: -500%;
+    }
+    100% {
+      background-position-x: 500%;
+    }
+  }  
+
+.paragraph{
+    margin-left: 20%;
+}
+
+ul {
+    list-style: none; /* Remove default bullets */
+  }
+
+.checkmark li::before {
+    content: "\2713";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
+    color: greenyellow; /* Change the color */
+    font-weight: bold;
+    width: 2em;
+}
+
+.diseases li::before {
+    content: "\2612";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
+    color: red; /* Change the color */
+    font-weight: bold;
+    width: 2em;
+    padding-right: 0.2rem;
+}
+
+.top{
+    background-color: rgb(120, 187, 120);
+    padding-top: 4%;
+    margin-top: -5%;
+    margin-bottom: 2%;
+}
+
+.p-text{
+    margin-right: 13%;
+    text-align: justify;
+}
+
+.wr{
+    float: right;
+    margin-top: 5%;
+    margin-right: 15%;
+    border-radius: 3%;
+    border:rgb(120, 187, 120) 1px solid;
+    box-shadow: 10px 10px grey;
+}
+
+.wr2{
+    float: right;
+    margin-top: 13%;
+    margin-right: 15%;
+    border-radius: 3%;
+    border:rgb(120, 187, 120) 1px solid;
+    box-shadow: 10px 10px grey;
+}
+
+
+/* CSS */
+.button-41 {
+  background-color: initial;
+  background-image: linear-gradient(-180deg, #00D775, #00BD68);
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0 2px 4px;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family: Inter,-apple-system,system-ui,Roboto,"Helvetica Neue",Arial,sans-serif;
+  height: 44px;
+  line-height: 44px;
+  outline: 0;
+  overflow: hidden;
+  padding: 2px 10px;
+  pointer-events: auto;
+  text-align: center;
+  touch-action: manipulation;
+  user-select: none;
+  -webkit-user-select: none;
+  vertical-align: top;
+  white-space: nowrap;
+  width: 10%;
+  z-index: 9;
+  border: 0;
+  position:absolute; 
+  top:0; 
+  right:0;
+  
+}
+
+.button-41:hover {
+  background: #00bd68;
+}
+
+.circle {
+    margin-right: 50%;
+    margin-left: auto;
+    background-color: #7cffcb;
+    background-image: linear-gradient(315deg, #7cffcb 0%, #74f2ce 74%);
+    border-radius: 50%;
+    box-shadow: 0.375em 0.375em 0 0 rgba(15, 28, 63, 0.125);
+    height: 5em;
+    width: 5em;
+    overflow: hidden;
+    margin-top: -2%;
+}
+
+.circle2{
+    margin-top: -26%;
+    margin-right: 34%;
+    float: right;
+
+    background-color: #3bb78f;
+    background-image: linear-gradient(315deg, #3bb78f 0%, #0bab64 74%);
+    border-radius: 50%;
+    box-shadow: 0.375em 0.375em 0 0 rgba(15, 28, 63, 0.125);
+    height: 5em;
+    width: 5em;
+    overflow: hidden;
+}
+
+.circle3{
+    margin-top: -29%;
+    margin-right: 31%;
+    float: right;
+
+    background-color: #00b712;
+    background-image: linear-gradient(315deg, #00b712 0%, #5aff15 74%); 
+    border-radius: 50%;
+    box-shadow: 0.375em 0.375em 0 0 rgba(15, 28, 63, 0.125);
+    height: 5em;
+    width: 5em;
+    overflow: hidden;
+}
+
+.circle4{
+    margin-top: -33%;
+    margin-left: 27%;
+    float: left;
+
+    background-color: #20bf55;
+    background-image: linear-gradient(315deg, #20bf55 0%, #01baef 74%);
+    border-radius: 50%;
+    box-shadow: 0.375em 0.375em 0 0 rgba(15, 28, 63, 0.125);
+    height: 5em;
+    width: 5em;
+    overflow: hidden;
+}
