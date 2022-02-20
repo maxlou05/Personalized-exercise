@@ -87,7 +87,12 @@ function getExercisePlan(intensity, type, time, requirements) {
         dt = time / regiment.length;
     }
 
-    let ret = {time: dt, plan: regiment};
+    let plan = [];
+    for (let i = 0; i < regiment.length; i++) {
+        const element = regiment[i];
+        plan.push(element.name);
+    }
+    let ret = {time_per_exercise: dt, plan: plan};
 
     return ret;
 }
