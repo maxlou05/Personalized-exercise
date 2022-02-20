@@ -117,4 +117,5 @@ function checkButton() {
             = "*You have not selected one of the fields";
         document.getElementById("disp").style.color = "red";
     }
+    
 }
