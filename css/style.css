@@ -248,11 +248,11 @@ ul {
     height: 5em;
     width: 5em;
     overflow: hidden;
-    margin-top: -2%;
+    margin-top: -8%;
 }
 
 .circle2{
-    margin-top: -26%;
+    margin-top: -20%;
     margin-right: 34%;
     float: right;
 
@@ -266,7 +266,7 @@ ul {
 }
 
 .circle3{
-    margin-top: -29%;
+    margin-top: -23%;
     margin-right: 31%;
     float: right;
 
@@ -280,7 +280,7 @@ ul {
 }
 
 .circle4{
-    margin-top: -33%;
+    margin-top: -27%;
     margin-left: 27%;
     float: left;
 

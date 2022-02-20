@@ -7,6 +7,7 @@
 	<link rel="stylesheet" href="fontawesome/css/all.min.css"> <!-- https://fontawesome.com/ -->
     <link rel="stylesheet" href="css/form.css"> <!-- https://fontawesome.com/ -->
     <link rel="stylesheet" href="css/style.css"> <!-- https://fontawesome.com/ -->
+    <link rel="stylesheet" href="css/progress.css">
 	<link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap" rel="stylesheet"> <!-- https://fonts.google.com/ -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/templatemo-xtra-blog.css" rel="stylesheet">
@@ -40,6 +41,10 @@ https://templatemo.com/tm-553-xtra-blog
                         <i class="fas fa-pen"></i>
                         Your Routine
                     </a></li>
+                    <li class="tm-nav-item"><a href="sign.html" class="tm-nav-link">
+                        <i class="fas fa-users"></i>
+                        Your Goals
+                    </a></li>
                     <li class="tm-nav-item"><a href="about.html" class="tm-nav-link">
                         <i class="fas fa-users"></i>
                         About
@@ -69,37 +74,44 @@ https://templatemo.com/tm-553-xtra-blog
             <p class="special-text">Don't Ever Think You Can't Do It.<br></p>
 
         </div>
-        <div class="form-special">
+        <div class="form-special" style="margin-bottom: 5%;">
 
-            <form method="get" action="javascript: void(0);" id="login-form" class="login-form" autocomplete="off" role="main">
-                <h1 class="a11y-hidden">Login Form</h1>
+            <form method="get" action="" id="login-form" class="login-form" autocomplete="off" role="main">
+                <h1 class="a11y-hidden">Set Your Goal</h1>
                 <div>
                   <label class="label-email">
-                    <input type="email" class="text" name="email" placeholder="Email" tabindex="1" required />
-                    <span class="required">Email</span>
+                    <input type="text" class="text" name="goal" placeholder="Goal" tabindex="1" required />
+                    <span class="required">Goal</span>
                   </label>
                 </div>
                 <input type="checkbox" name="show-password" class="show-password a11y-hidden" id="show-password" tabindex="3" />
-                <label class="label-show-password" for="show-password">
-                  <span>Show Password</span>
-                </label>
                 <div>
                   <label class="label-password">
-                    <input type="text" class="text" name="password" placeholder="Password" tabindex="2" required />
-                    <span class="required">Password</span>
+                    <input type="text" class="text" name="goalpercent" placeholder="50%" tabindex="2" required />
+                    <span class="required">Percentage of Completion</span>
                   </label>
                 </div>
-                <input type="submit" value="Log In" />
-                <div class="email">
-                  <a href="#">Forgot password?</a>
-                </div>
+                <button class="submit-button" type="button" onclick=" checkButton()"> Submit </button>   
               </form>
         </div>
         <div class="circle"></div>
         <div class="circle2"></div>
         <div class="circle3"></div>
         <div class="circle4"></div>
-        
+
+        <div class="box">
+            <div class="percent">
+              <svg>
+                <circle cx="70" cy="70" r="70"></circle>
+                <circle cx="70" cy="70" r="70"></circle>
+              </svg>
+              <div class="num">
+                <h2 id="prog">87<span>%</span></h2>
+              </div>
+            </div>
+            <h2 id="name" class="text">Progress</h2>
+          </div>
+         
     </div>
 
     

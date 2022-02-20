@@ -106,7 +106,7 @@ function checkButton() {
         'input[name="type"]:checked');
     var requirements = document.querySelector(
         'input[name="handicaps"]:checked');
-    
+
     if(intensity != null && time != null && type != null && requirements != null) {
         let regiment = getExercisePlan(intensity.value, type.value, time.value, [Number(requirements.value)]);
         document.getElementById("disp").innerHTML = JSON.stringify(regiment);
