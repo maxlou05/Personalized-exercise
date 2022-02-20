@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Dongle:wght@300&family=Mukta:wght@300&family=Noto+Serif&family=Noto+Serif+Display:wght@300;400;500&family=Open+Sans:wght@300&family=Shizuru&display=swap');
 body {
   --l: calc(100vw/var(--n-cols));
   --hl: calc(.5*var(--l));
@@ -18,6 +19,11 @@ body {
   body {
     --l: calc(100vh/(var(--n-rows) + 3));
   }
+}
+
+.s-text{
+  font-family: 'Noto Serif Display', serif;
+  size: 0.7 rem;
 }
 
 .hex-cell {

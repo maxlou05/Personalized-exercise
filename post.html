@@ -38,6 +38,10 @@ https://templatemo.com/tm-553-xtra-blog
                         <i class="fas fa-pen"></i>
                         Your Routine
                     </a></li>
+                    <li class="tm-nav-item"><a href="sign.html" class="tm-nav-link">
+                        <i class="fas fa-users"></i>
+                        Your Goals
+                    </a></li>
                     <li class="tm-nav-item"><a href="about.html" class="tm-nav-link">
                         <i class="fas fa-users"></i>
                         About
@@ -68,19 +72,22 @@ https://templatemo.com/tm-553-xtra-blog
             <p class="special-text">Don't Ever Think You Can't Do It.<br></p>
         </div>
         <div style="margin-left: 20%;">
+            <span>Streak</span> 
+            <span>5</span>
+            <img src="img/fire.htm" alt="">
             <br><b> Choose your routine intensity: </b><br>
-            <input type="radio" name="intensity" id="intense" value="intense"> Intense <br> 
-            <input type="radio" name="intensity" id="moderate" value="moderate"> Moderate <br> 
+            <input type="radio" name="intensity" id="intense" value=1> Intense <br> 
+            <input type="radio" name="intensity" id="moderate" value=0> Moderate <br> 
             
             <br><b> Choose your routine duration: </b><br>
-            <input type="radio" name="time" id="10" value="10"> 10min / day <br> 
-            <input type="radio" name="time" id="15" value="15"> 15min / day <br> 
-            <input type="radio" name="time" id="20" value="20"> 20min / day <br>  
+            <input type="radio" name="time" id="10" value="0"> 10min / day <br> 
+            <input type="radio" name="time" id="15" value="1"> 15min / day <br> 
+            <input type="radio" name="time" id="20" value="2"> 20min / day <br>  
 
             <br><b> Choose your routine type: </b><br>
-            <input type="radio" name="type" id="cardio" value="cardio"> cardio <br> 
-            <input type="radio" name="type" id="flexibility" value="flexibility"> flexibility <br> 
-            <input type="radio" name="type" id="strength" value="strength"> strength <br> 
+            <input type="radio" name="type" id="cardio" value="0"> cardio <br> 
+            <input type="radio" name="type" id="flexibility" value="1"> flexibility <br> 
+            <input type="radio" name="type" id="strength" value="2"> strength <br> 
             <br>
             
             <button type="button" onclick=" checkButton()"> Submit </button> 
@@ -88,6 +95,7 @@ https://templatemo.com/tm-553-xtra-blog
             <h3 id="disp" style= "color:green"> </h3>
             <h4 id="error" style= "color:red"> </h4>
             <script src="js/form.js"></script>
+            <script src="js/getExercises.js"></script>
         </div>
 
     </div>
